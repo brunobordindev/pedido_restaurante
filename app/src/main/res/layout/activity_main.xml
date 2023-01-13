@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Menu"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cafés" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBoxCoado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Café coado"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="R$ 5,00"
+                android:textColor="@color/black"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/visibleCoado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMenosCoado"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="-"/>
+
+            <TextView
+                android:id="@+id/qtdCoado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="0"/>
+
+            <Button
+                android:id="@+id/btnMaisCoado"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="+"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBoxExpresso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Café expresso"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="R$ 6,00"
+                android:textColor="@color/black"
+                android:gravity="right"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/visibleExpresso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMenosExpresso"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="-"/>
+
+            <TextView
+                android:id="@+id/qtdExpresso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="0"/>
+
+            <Button
+                android:id="@+id/btnMaisExpresso"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="+"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBoxPersonalizado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Café personalizado"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="R$ 8,00"
+                android:textColor="@color/black"
+                android:gravity="right"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/visiblePersonalizado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMenosPersonalizado"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="-"/>
+
+            <TextView
+                android:id="@+id/qtdPersonalizado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="0"/>
+
+            <Button
+                android:id="@+id/btnMaisPersonalizado"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="+"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="32dp"
+            android:text="Bebidas" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBoxAgua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Água"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="R$ 5,00"
+                android:textColor="@color/black"
+                android:gravity="right"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/visibleAgua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMenosAgua"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="-"/>
+
+            <TextView
+                android:id="@+id/qtdAgua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="0"/>
+
+            <Button
+                android:id="@+id/btnMaisAgua"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="+"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBoxRefri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Refrigerante Lata"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="R$ 5,50"
+                android:textColor="@color/black"
+                android:gravity="right"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/visibleRefri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMenosRefri"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="-"/>
+
+            <TextView
+                android:id="@+id/qtdRefri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="0"/>
+
+            <Button
+                android:id="@+id/btnMaisRefri"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="+"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBoxSuco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suco do dia"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="R$ 7,00"
+                android:textColor="@color/black"
+                android:gravity="right"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/visibleSuco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMenosSuco"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="-"/>
+
+            <TextView
+                android:id="@+id/qtdSuco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:text="0"/>
+
+            <Button
+                android:id="@+id/btnMaisSuco"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="+"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnEnviarPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Enviar" />
+
+
+    </LinearLayout>
+
+</ScrollView>
