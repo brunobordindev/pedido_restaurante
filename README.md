@@ -7,7 +7,7 @@ Pedido de restauante, mostrando o cardapio e depois o pedido realizado
 
 MainActivity1
 
-<img src="https://user-images.githubusercontent.com/72177982/212351022-9309b662-4f8b-47dd-9600-5a3928b0873c.png" width=“95%">
+<img src="https://user-images.githubusercontent.com/72177982/212355144-7ae64c55-1be0-4f67-8b23-6f236eb70544.png" width=“95%">
 <img src="https://user-images.githubusercontent.com/72177982/212351035-9063c0a5-d2d6-4676-9ab3-ea2ed7da35ee.png" width=“95%">
 <img src="https://user-images.githubusercontent.com/72177982/212351049-a7a6d249-3ac2-48fb-a462-b90fcc9acd8c.png" width=“95%">
 <img src="https://user-images.githubusercontent.com/72177982/212351061-b163b60e-6318-4f14-8827-c2e52c87adfc.png" width=“95%">
